@@ -1,0 +1,123 @@
+body{
+	background: linear-gradient(-45deg, rgba(134,44,198,1) 0%, rgba(172,38,153,1) 47%, rgba(49,33,149,1) 100%);	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+	display: grid;
+	grid-auto-rows: minmax(150px, auto);
+	max-width:650px;
+	min-width:300px;
+	min-height:100vh;
+	margin:25px auto;
+	padding:20px;
+	border-radius: 7px;
+	background: #fff;
+	color:rgba(49,33,149,1);
+	justify-content: center;
+	grid-gap: 1em;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+.headline{
+	text-align: center;
+}
+
+.entry{
+	background:rgba(134,44,198,0.1);
+	margin:0 0 25px 0;
+	padding: 20px;
+	text-align: center;
+	border:2px solid rgba(172,38,153,1);
+}
+
+#entryHolder{
+	padding: 15px 0;
+	text-align: left;
+	color :rgba(49,33,149,1);
+}
+#entryHolder span{
+	color :rgba(172,38,153,1);
+}
+#date{
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+#temp{
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+#content{
+	letter-spacing: 1px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+	display:block;
+	font-size: 27px;
+}
+
+input,textarea{
+	display:block;
+	margin:5px 0;
+	height: 60px;
+	width: 80%;
+	background:transparent;
+	color: rgba(172,38,153,1);
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	border: none;
+	padding: 10px 0;
+	border-bottom:1px solid thistle;
+}
+input:focus{
+	border-bottom:1px solid rgba(49,33,149,1);
+}
+button{
+	width: 80%;
+	height: 80px;
+	background:linear-gradient(-45deg, rgba(134,44,198,1) 0%, rgba(172,38,153,1) 47%, rgba(49,33,149,1) 100%);	
+	color: #fff;
+	font-size: 20px;
+	margin: 25px 0;
+	letter-spacing: 2px;
+	font-family: 'Oswald', sans-serif;
+	border: none;
+	box-shadow: 2px 4px 5px #444;
+}
+h1{
+	font-size: 36px;
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+	color:  rgba(134,44,198,0.4); 
+	font-family: 'Oswald', sans-serif;
+
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+	color: rgba(134,44,198,0.4); 
+	font-family: 'Oswald', sans-serif;
+
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+	color:rgba(134,44,198,0.4); 
+	font-family: 'Oswald', sans-serif;
+
+} 
