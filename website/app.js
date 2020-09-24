@@ -5,7 +5,7 @@ let button=document.getElementById('generate');
 let date = document.getElementById('date');
 let temp = document.getElementById('temp');
 let content = document.getElementById('content');
-let apiKey = '8c91a0b3e84680fed0962438f6db098c';
+const apiKey = '8c91a0b3e84680fed0962438f6db098c';
 let baseURL = `http://api.openweathermap.org/data/2.5/weather?zip=`;
 
 // Create a new date instance dynamically with JS
